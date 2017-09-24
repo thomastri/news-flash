@@ -6,6 +6,8 @@
 //  Copyright © 2017 Thomas Le. All rights reserved.
 //
 
+
+// News API Key: b6ad5635af024cfc918e7d5cff6674bb
 import UIKit
 
 @UIApplicationMain

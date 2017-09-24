@@ -11,4 +11,17 @@ import UIKit
 
 class HomeViewController : UIViewController {
     
+    // converts homeView from UIView to HomeView
+    var homeView : HomeView {
+        return self.view as! HomeView
+    }
+ 
+    override func loadView() {
+        self.view = HomeView()
+    }
+    
+    override func viewDidLoad() {
+        title = "News Flash!"
+    }
+    
 }

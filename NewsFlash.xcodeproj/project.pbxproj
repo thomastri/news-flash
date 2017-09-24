@@ -8,13 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01D6C1243254363D8EA4A952 /* Pods_NewsFlash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36908B06EF77815CF93009FD /* Pods_NewsFlash.framework */; };
-		0B9AD52D1F772987000CCDFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AD52C1F772987000CCDFE /* AppDelegate.swift */; };
-		0B9AD5341F772987000CCDFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9AD5331F772987000CCDFE /* Assets.xcassets */; };
-		0B9AD5371F772987000CCDFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B9AD5351F772987000CCDFE /* LaunchScreen.storyboard */; };
-		0B9AD5421F772987000CCDFE /* NewsFlashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AD5411F772987000CCDFE /* NewsFlashTests.swift */; };
-		0B9AD54D1F772987000CCDFE /* NewsFlashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AD54C1F772987000CCDFE /* NewsFlashUITests.swift */; };
-		0B9AD55D1F7731E1000CCDFE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AD55C1F7731E1000CCDFE /* HomeViewController.swift */; };
-		0B9AD5601F773584000CCDFE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AD55F1F773584000CCDFE /* HomeView.swift */; };
 		C0AC5A79519CD79B8C6FA769 /* Pods_NewsFlashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE918E83DDCC2E75FD6BE444 /* Pods_NewsFlashTests.framework */; };
 		D2DE96B450604F2E43D8D53D /* Pods_NewsFlashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C5BA058CFCF2975858F866 /* Pods_NewsFlashUITests.framework */; };
 /* End PBXBuildFile section */
@@ -38,18 +31,11 @@
 
 /* Begin PBXFileReference section */
 		0B9AD5291F772987000CCDFE /* NewsFlash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsFlash.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B9AD52C1F772987000CCDFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B9AD5331F772987000CCDFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0B9AD5361F772987000CCDFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0B9AD5381F772987000CCDFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B9AD53D1F772987000CCDFE /* NewsFlashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsFlashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B9AD5411F772987000CCDFE /* NewsFlashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFlashTests.swift; sourceTree = "<group>"; };
-		0B9AD5431F772987000CCDFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B9AD5481F772987000CCDFE /* NewsFlashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsFlashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B9AD54C1F772987000CCDFE /* NewsFlashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFlashUITests.swift; sourceTree = "<group>"; };
-		0B9AD54E1F772987000CCDFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B9AD55C1F7731E1000CCDFE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		0B9AD55F1F773584000CCDFE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0B9AD5611F774B5B000CCDFE /* Configuration */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Configuration; sourceTree = "<group>"; };
+		0B9AD5621F774B5C000CCDFE /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		0B9AD5631F774B5C000CCDFE /* Library */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Library; sourceTree = "<group>"; };
 		0C7C1C14EBEECA50FEAD2653 /* Pods-NewsFlashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsFlashTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsFlashTests/Pods-NewsFlashTests.debug.xcconfig"; sourceTree = "<group>"; };
 		12163959B412F17C01943FC2 /* Pods-NewsFlash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsFlash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsFlash/Pods-NewsFlash.debug.xcconfig"; sourceTree = "<group>"; };
 		36908B06EF77815CF93009FD /* Pods_NewsFlash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsFlash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				0B9AD52B1F772987000CCDFE /* NewsFlash */,
-				0B9AD5401F772987000CCDFE /* NewsFlashTests */,
-				0B9AD54B1F772987000CCDFE /* NewsFlashUITests */,
 				0B9AD52A1F772987000CCDFE /* Products */,
 				5D6370F33975014A5FF1DE23 /* Pods */,
 				1B88159ACF2CF6531BF52CF4 /* Frameworks */,
@@ -114,56 +98,11 @@
 		0B9AD52B1F772987000CCDFE /* NewsFlash */ = {
 			isa = PBXGroup;
 			children = (
-				0B9AD55A1F7731B3000CCDFE /* screens */,
-				0B9AD52C1F772987000CCDFE /* AppDelegate.swift */,
-				0B9AD5331F772987000CCDFE /* Assets.xcassets */,
-				0B9AD5351F772987000CCDFE /* LaunchScreen.storyboard */,
-				0B9AD5381F772987000CCDFE /* Info.plist */,
+				0B9AD5611F774B5B000CCDFE /* Configuration */,
+				0B9AD5631F774B5C000CCDFE /* Library */,
+				0B9AD5621F774B5C000CCDFE /* Source */,
 			);
 			path = NewsFlash;
-			sourceTree = "<group>";
-		};
-		0B9AD5401F772987000CCDFE /* NewsFlashTests */ = {
-			isa = PBXGroup;
-			children = (
-				0B9AD5411F772987000CCDFE /* NewsFlashTests.swift */,
-				0B9AD5431F772987000CCDFE /* Info.plist */,
-			);
-			path = NewsFlashTests;
-			sourceTree = "<group>";
-		};
-		0B9AD54B1F772987000CCDFE /* NewsFlashUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0B9AD54C1F772987000CCDFE /* NewsFlashUITests.swift */,
-				0B9AD54E1F772987000CCDFE /* Info.plist */,
-			);
-			path = NewsFlashUITests;
-			sourceTree = "<group>";
-		};
-		0B9AD55A1F7731B3000CCDFE /* screens */ = {
-			isa = PBXGroup;
-			children = (
-				0B9AD55B1F7731C5000CCDFE /* Home */,
-			);
-			path = screens;
-			sourceTree = "<group>";
-		};
-		0B9AD55B1F7731C5000CCDFE /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				0B9AD55E1F773572000CCDFE /* Views */,
-				0B9AD55C1F7731E1000CCDFE /* HomeViewController.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		0B9AD55E1F773572000CCDFE /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				0B9AD55F1F773584000CCDFE /* HomeView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		1B88159ACF2CF6531BF52CF4 /* Frameworks */ = {
@@ -305,8 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B9AD5371F772987000CCDFE /* LaunchScreen.storyboard in Resources */,
-				0B9AD5341F772987000CCDFE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,9 +418,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B9AD5601F773584000CCDFE /* HomeView.swift in Sources */,
-				0B9AD52D1F772987000CCDFE /* AppDelegate.swift in Sources */,
-				0B9AD55D1F7731E1000CCDFE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +425,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B9AD5421F772987000CCDFE /* NewsFlashTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +432,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B9AD54D1F772987000CCDFE /* NewsFlashUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,17 +449,6 @@
 			targetProxy = 0B9AD5491F772987000CCDFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0B9AD5351F772987000CCDFE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B9AD5361F772987000CCDFE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0B9AD54F1F772987000CCDFE /* Debug */ = {
@@ -644,7 +565,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D257YZMABH;
-				INFOPLIST_FILE = NewsFlash/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NewsFlash/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasle.NewsFlash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -660,7 +581,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D257YZMABH;
-				INFOPLIST_FILE = NewsFlash/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NewsFlash/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasle.NewsFlash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -673,7 +594,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C7C1C14EBEECA50FEAD2653 /* Pods-NewsFlashTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D257YZMABH;
@@ -691,7 +611,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FAAE8FEE4F80ACFD80442A3 /* Pods-NewsFlashTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D257YZMABH;
@@ -709,7 +628,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 44F537AE3A930228710EF974 /* Pods-NewsFlashUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D257YZMABH;
 				INFOPLIST_FILE = NewsFlashUITests/Info.plist;
@@ -726,7 +644,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F05B68B3DAACDB7E860310E1 /* Pods-NewsFlashUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D257YZMABH;
 				INFOPLIST_FILE = NewsFlashUITests/Info.plist;
